@@ -1,0 +1,52 @@
+.navbar-expand-custom {
+    -ms-flex-flow: row nowrap;
+    flex-flow : row nowrap;
+    -ms-flex-pack : start;
+    justify-content: flex-start;
+}
+.navbar-mainbg {
+    padding: 0px;
+}
+user agent stylesheet
+nav {
+    display: block;
+}
+#navbarSupportedContent {
+    overflow: hidden;
+    position: relative;
+}
+.navbar-expand-custom .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+/* .item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+body{
+    text-align: center;
+}
+.navbar
+{
+    display: flex;
+}
+
+/* Work */
+/* home */
+.w1{
+    /* display: flex; */
+    flex-direction: row;
+    margin-top: 50%;
+    margin: 600px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.grand{
+    background: linear-gradient(300deg,#00bfff,#ff4c68,#ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
